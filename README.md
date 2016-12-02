@@ -38,13 +38,11 @@ clog工具最低版本android2.2(8),已经适配到android7.0。
   clog.init(this, Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "dreamlivemeng");
   
     
-    
-混淆
+    
+#混淆
 
-  #clog
-  -dontwarn com.dreamlive.cn.**  
-  -keep classcom.dreamlive.cn.**{*;}  
-
-  
+    #clog
+    -dontwarn com.dreamlive.cn.**
+    -keep classcom.dreamlive.cn.**{*;}
   
 工具类的说明网址：http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/1125/6801.html
