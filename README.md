@@ -40,9 +40,10 @@ clog工具最低版本android2.2(8),已经适配到android7.0。
     
     
 混淆
--dontwarn com.dreamlive.cn.**  
 
--keep classcom.dreamlive.cn.**{*;}  
+  #clog
+  -dontwarn com.dreamlive.cn.**  
+  -keep classcom.dreamlive.cn.**{*;}  
 
   
   
